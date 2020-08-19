@@ -1,0 +1,6 @@
+
+.idea
+vendor
+*.yaml
+go.sum
+main.go
