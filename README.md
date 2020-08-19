@@ -1,10 +1,6 @@
-# go_gin_praise
-点赞
-
-
-
+# go_gin_praise 点赞
 ##操作文档
-###部分参数json参数如下所示
+
 
 ## 使用教程
 ```go
@@ -30,7 +26,7 @@ func main()  {
 
 ```
 
-
+###部分参数json参数如下所示
 
 ```json
 {
