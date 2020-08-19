@@ -1,8 +1,37 @@
 # go_gin_praise
 点赞
 
+
+
 ##操作文档
 ###部分参数json参数如下所示
+
+## 使用教程
+```go
+
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+	"github.com/jinzhu/gorm"
+	"github.com/zngue/go_gin_praise/router"
+	"github.com/zngue/go_tool/src/gin_run"
+)
+
+func main()  {
+
+	gin_run.GinRun(func(group *gin.RouterGroup) {
+		router.PraiseRouter(group)
+	}, func(db *gorm.DB) {
+
+
+	})
+}
+
+```
+
+
+
 ```json
 {
     "id":7, int64//点赞id
